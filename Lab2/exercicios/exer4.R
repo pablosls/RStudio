@@ -31,7 +31,7 @@ dim(Banco)
 View(Banco)
 
 
-barplot(prop.table(Banco_1$sexo)) * 100, 
-col=c("blue", "red"))
+barplot(prop.table(table(Banco$sexo)) * 100, 
+        col=c("blue", "red"))
 title("Frequencia", xlab="sexo", ylab="%")
 
