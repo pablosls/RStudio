@@ -1,8 +1,10 @@
-a <- matrix (data=1:12, nrow = 4, ncol = 3, byrow = TRUE)
+a <- matrix(data=1:12, nrow = 4, ncol = 3, byrow = TRUE)
 
 
 a
 a[2,3]
+
+a[2,3] <- 66
 
 
 b <- rbind(c("edmar","Priscila"), c(30,34),c("MBA","Doutorando"))
