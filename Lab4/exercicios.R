@@ -109,5 +109,7 @@ Apend_A
 
 
 
+# 2 - usar funcao CUT
+# 3 - feito em sala
 
 
